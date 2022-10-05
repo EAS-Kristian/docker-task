@@ -22,7 +22,7 @@ docker build -t apiimage:latest .
 
 
 
-## Run docker docker command example
+## Run docker command example
 
 ``` bash
 docker run -it -v $(pwd):/kris -e id=5 -e resource=albums apiimage:latest
